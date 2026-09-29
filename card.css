@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  /* --grey: #0b0e10; */
+  /* --grey1: #161c20 #36454f ; */
+  /* --grey1: #1b2328; */
+  --font: #e2e2e2;
+  /* --primary: #ff00ff; */
+  /* --primary2: #ff2eff; */
+  /* --primary3: #ff5cff; */
+  --primarydark: #d100d1;
+  --primarydark2: #470047;
+  --primarydark3: #1a001a;
+  --primary: #00ffff;
+  --grey: #000000;
+  --grey1: #181818;
+}
+body {
+  background-color: var(--grey);
+  height: 100vh;
+  width: 100%;
+}
